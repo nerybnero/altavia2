@@ -17,10 +17,10 @@
                         <img class="logo__img" src="<?php bloginfo('template_url'); ?>/assets/img/icon/logo.svg" alt="Логотип">
                     </a>
 
-                    <a class="header__phone" href="tel:+7(499)350-55-79">
+                    <a class="header__phone phone" href="tel:+7(499)350-55-79">
                        <span>+7 (499) 350-55-79</span> 
                     </a>
-                    <?php get_template_part('template/buttons/button-small'); ?>  
+                    <?php display_custom_button('Получить консультацию');?>   
                 </div>
             </div>
         </header>
