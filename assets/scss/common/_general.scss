@@ -1,0 +1,21 @@
+body{
+    font-family: $fontManrope;
+    @extend %mobile-t2;
+    background-color: $netural-100;
+}
+
+.container{
+    max-width: 345px;
+    margin: 0 auto;
+    padding: 0 15px;
+    @media(min-width:768px){
+        max-width: 708px;
+    }
+    @media(min-width:1440px){
+        max-width: 1160px;
+    }
+    @media(min-width:1920px){
+        max-width: 1720px;
+    }
+}
+

@@ -1,0 +1,145 @@
+// шрифты
+$fontStem: Stem;
+$fontManrope: Manrope;
+
+
+//brand colors
+$colorGreen: #446467;
+$colorGold: #BFA380;
+$colorBackground: #F7F7F7;
+$colorGray: #737373;
+$colorBackground-2: #EBF2F1;
+
+
+//gray collors
+$netural-10: #383027;
+$netural-20: #333;
+$netural-30: #4D4D4D;
+$netural-40: #666;
+$netural-50: #808080;
+$netural-60: #999;
+$netural-70: #B3B3B3;
+$netural-80: #CCC;
+$netural-100: #FFF;
+
+
+// типография desctop
+%desktop-h1{
+    font-size: 100px;
+    line-height: 100%;
+}
+%desktop-h2{
+    font-size: 60px;
+    line-height: 110%;
+}
+%desktop-h3{
+    font-size: 34px;
+    line-height: 120%;
+}
+%desktop-h4{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 120%;
+}
+%desktop-t1{
+    font-size: 24px;
+    line-height: 145%;
+}
+%desktop-t2{
+    font-size: 20px;
+    line-height: 150%;
+}
+%desktop-card{
+    font-size: 18px;
+    line-height: 140%;
+}
+%desktop-textcard{
+    font-size: 16px;
+    line-height: 150%;
+}
+
+
+//типография tablet
+%tablet-h1{
+    font-size: 100px;
+    line-height: 90%;
+}
+%tablet-h2{
+    font-size: 46px;
+    line-height: 110%;
+}
+%tablet-h3{
+    font-size: 30px;
+    line-height: 120%;
+}
+%tablet-h4{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+}
+%tablet-t1{
+    font-size: 22px;
+    line-height: 145%;
+}
+%tablet-t2{
+    font-size: 18px;
+    line-height: 150%;
+}
+%tablet-card{
+    font-size: 18px;
+    line-height: 145%;
+}
+%tablet-textcard{
+    font-size: 16px;
+    line-height: 140%;
+}
+
+
+// типография mobile
+%mobile-h1{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 110%;
+    font-family: $fontStem;
+}
+%mobile-h2{
+    font-size: 30px;
+    line-height: 110%;
+    font-family: $fontStem;
+}
+%mobile-h3{
+    font-size: 24px;
+    line-height: 120%;
+    font-family: $fontStem;
+}
+%mobile-h4{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 120%;
+    font-family: $fontStem;
+}
+%mobile-t1{
+    font-size: 18px;
+    line-height: 145%;
+}
+%mobile-t2{
+    font-size: 16px;
+    line-height: 140%;
+}
+%mobile-card{
+    font-size: 16px;
+    line-height: 140%;
+}
+%mobile-textcard{
+    font-size: 16px;
+    line-height: 140%;
+}
+%mobile-practits{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 125%;
+}
+
+
+
+
