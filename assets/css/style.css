@@ -257,9 +257,23 @@ body {
       -ms-flex: 0 0 40px;
           flex: 0 0 40px;
   padding: 6px;
+  position: relative;
 }
 .header__phone span {
   display: none;
+}
+.header__phone::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-image: url("../img/icon/phone.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 21px;
+  height: 21px;
 }
 
 .menu__wrap {
@@ -306,6 +320,15 @@ body {
   left: 0;
   width: 100%;
   height: 2%;
+}
+
+.logo__img {
+  max-width: 122px;
+}
+@media (min-width: 768px) {
+  .logo__img {
+    max-width: 160px;
+  }
 }
 
 .button-normal {
