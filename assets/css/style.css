@@ -367,15 +367,27 @@ body {
   border-radius: 2px;
   position: relative;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-height: 53px;
 }
 @media (min-width: 768px) {
   .button-normal {
     padding: 22px 40px;
+    max-height: 58px;
   }
 }
 @media (min-width: 1440px) {
   .button-normal {
     padding: 26px 40px;
+    max-height: 69px;
   }
 }
 .button-normal::before {
@@ -475,4 +487,71 @@ body {
   font-weight: 600;
   font-size: 18px;
   position: relative;
+}
+
+.button-secondary {
+  padding: 22px 36px;
+  border-radius: 2px;
+  border: 1px solid #BFA380;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-height: 44px;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .button-secondary {
+    padding: 18px 36px;
+    max-width: 324px;
+    max-height: 49px;
+  }
+}
+@media (min-width: 1440px) {
+  .button-secondary {
+    padding: 22px 36px;
+    max-width: 407px;
+    max-height: 57px;
+  }
+}
+.button-secondary::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background: -webkit-gradient(linear, left top, left bottom, from(#487373), to(#7BA9B2));
+  background: linear-gradient(180deg, #487373 0%, #7BA9B2 100%);
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(81, 135, 146, 0.4);
+          box-shadow: 0px 0px 15px 0px rgba(81, 135, 146, 0.4);
+  opacity: 0;
+}
+.button-secondary:hover::before {
+  opacity: 1;
+}
+.button-secondary:hover:active::before {
+  display: none;
+}
+.button-secondary:active {
+  background: #3C5A5C;
+}
+.button-secondary span {
+  color: #383027;
+  font-weight: 600;
+  font-size: 16px;
+  position: relative;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+.button-secondary:hover span {
+  color: #fff;
 }
