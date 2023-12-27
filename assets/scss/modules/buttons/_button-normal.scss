@@ -4,11 +4,17 @@
     border-radius: 2px;
     position: relative;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 53px;
     @media(min-width:768px){
         padding: 22px 40px;
+        max-height: 58px;
     }
     @media(min-width:1440px){
         padding: 26px 40px;
+        max-height: 69px;
     }
 
     // добавляем анимацию при наведении------
