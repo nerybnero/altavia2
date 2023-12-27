@@ -20,7 +20,7 @@
                     <a class="header__phone" href="tel:+7(499)350-55-79">
                        <span>+7 (499) 350-55-79</span> 
                     </a>
-
+                    <?php get_template_part('template/buttons/button-small'); ?>  
                 </div>
             </div>
         </header>
