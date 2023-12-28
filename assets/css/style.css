@@ -588,6 +588,100 @@ body {
   height: 2%;
 }
 
+.sotial-telegram {
+  border-radius: 2px;
+  border: 1px solid #BFA380;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 45px;
+  height: 45px;
+  position: relative;
+  -webkit-transition: border 0.3s ease;
+  transition: border 0.3s ease;
+  overflow: hidden;
+}
+.sotial-telegram::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#487373), to(#7BA9B2)), #F7F7F7;
+  background: linear-gradient(180deg, #487373 0%, #7BA9B2 100%), #F7F7F7;
+  z-index: -1;
+  opacity: 0;
+  -webkit-transition: opacity 1.2s ease;
+  transition: opacity 1.2s ease;
+}
+.sotial-telegram:hover {
+  border: none;
+  border-radius: 2px;
+  border-color: #446467;
+}
+.sotial-telegram:hover::before {
+  opacity: 1;
+  border-radius: 2px;
+}
+.sotial-telegram:hover .sotial-telegram__path {
+  fill: #F7F7F7;
+}
+
+.sotial-youtube {
+  border-radius: 2px;
+  border: 1px solid #BFA380;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 45px;
+  height: 45px;
+  position: relative;
+  -webkit-transition: border 0.3s ease;
+  transition: border 0.3s ease;
+  overflow: hidden;
+}
+.sotial-youtube::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#487373), to(#7BA9B2)), #F7F7F7;
+  background: linear-gradient(180deg, #487373 0%, #7BA9B2 100%), #F7F7F7;
+  z-index: -1;
+  opacity: 0;
+  -webkit-transition: opacity 1.2s ease;
+  transition: opacity 1.2s ease;
+}
+.sotial-youtube:hover {
+  border: none;
+  border-radius: 2px;
+  border-color: #446467;
+}
+.sotial-youtube:hover::before {
+  opacity: 1;
+  border-radius: 2px;
+}
+.sotial-youtube:hover svg stop:first-child {
+  stop-color: #F7F7F7;
+}
+.sotial-youtube:hover svg stop:last-child {
+  stop-color: #F7F7F7;
+}
+.sotial-youtube:hover .sotial-youtube__path {
+  stroke: #446467;
+}
+
 .button-normal {
   padding: 18px 40px;
   background: -webkit-gradient(linear, left top, left bottom, from(#2C4646), to(#678E96));
@@ -872,13 +966,21 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   border: 1px solid transparent;
+  -webkit-transition: border-color 0.5s ease;
+  transition: border-color 0.5s ease;
+}
+.button-arrow__path {
+  fill: #BFA380;
+  stroke: #BFA380;
 }
 .button-arrow:hover {
   border-color: #BFA380;
+  -webkit-transition: border-color 0.5s ease;
+  transition: border-color 0.5s ease;
 }
 .button-arrow:hover .button-arrow__path {
-  fill: #BFA380;
-  stroke: #BFA380;
+  -webkit-transition: fill 0.5s ease, stroke 0.3s ease;
+  transition: fill 0.5s ease, stroke 0.3s ease;
 }
 
 .hero-main {
