@@ -417,8 +417,18 @@ body {
 .button-normal span {
   color: #fff;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 18px;
   position: relative;
+}
+@media (min-width: 768px) {
+  .button-normal span {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1440px) {
+  .button-normal span {
+    font-size: 24px;
+  }
 }
 
 .button-small {
@@ -599,4 +609,23 @@ body {
   font-weight: 600;
   font-size: 24px;
   position: relative;
+}
+
+.button-arrow {
+  width: 32px;
+  height: 32px;
+  background-color: #F7F7F7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.button-arrow:hover .button-arrow__path {
+  fill: #BFA380;
+  stroke: #BFA380;
 }
