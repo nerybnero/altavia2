@@ -1,21 +1,19 @@
-.button-services{
+.button-secondary{
     border-radius: 2px;
-    border: 1px solid $colorGold;
     position: relative;
-    background: linear-gradient(168deg, #AD8557 -31.36%, #D4C8B6 126.18%);
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
     max-height: 53px;
-    padding: 18px 40px;
+    border: 1px solid $colorGold;
     @media(min-width:768px){
-        max-height: 61px;
         padding: 22px 40px;
+        max-height: 58px;
     }
     @media(min-width:1440px){
+        padding: 26px 40px;
         max-height: 69px;
-        padding: 16px 36px;
     }
 
     // добавляем анимацию при наведении------
@@ -27,19 +25,33 @@
         width: 100%;
         height: 100%;
         transition: all .5s ease;
-        background: linear-gradient(170deg, #B2895A -79.47%, #D9CDBA 142.56%);
+        background: linear-gradient(180deg, #487373 0%, #7BA9B2 100%);
+        box-shadow: 0px 0px 15px 0px rgba(81, 135, 146, 0.40);
         opacity: 0;
     }
     &:hover::before {
         opacity: 1;
     }
 
+    &:hover span{
+        color: $netural-100;
+    }
+
+    // анимация при нажатии----
+    &:hover:active::before{
+        display: none;
+    }
+    &:active{
+        background: #3C5A5C;
+    }
 
     & span{
-        color: $netural-100;
+        color: $netural-10;
         font-weight: 600;
-        font-size: 24px;
+        font-size: 16px;
         position: relative;
-        transition: color 0.3s ease;
+        @media(min-width:768px){
+            font-size: 18px;
+        }
     }
 }
