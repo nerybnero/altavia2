@@ -1,0 +1,73 @@
+.about-us {
+    margin-bottom: 100px;
+    @media(min-width:768px){
+        margin-bottom: 173px;
+    }
+    @media(min-width:1440px){
+        margin-bottom: 255px;
+    }
+    &__body {
+
+    }
+
+    &__left {
+    }
+
+    &__right {
+    }
+
+    &__cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    &__card {
+        margin-bottom: 45px;
+    }
+
+    &__card-top {
+        font-family: $fontStem;
+        font-weight: 500;
+        line-height: 120%;
+        color: $colorGold;
+        display: flex;
+        align-items: baseline;
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+
+    &__text {
+        font-size: 60px;
+    }
+
+    &__text-desc {
+        font-size: 20px;
+    }
+
+    &__card-bottom {
+    }
+
+    &__desc {
+        font-size: 14px;
+        line-height: 140%;
+        color: $netural-40;
+        max-width: 164px;
+        width: 100%;
+    }
+}
+
+.abous-us {
+
+    &__animation {
+    }
+
+    &__animation-wrapper-left {
+    }
+
+    &__animation-centr {
+    }
+
+    &__animation-wrapper-right {
+    }
+}
