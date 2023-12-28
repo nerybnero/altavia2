@@ -2,10 +2,15 @@
 
 width: 32px;
 height: 32px;
-background-color: $colorBackground;
+background-color: $netural-100;
 display: flex;
 align-items: center;
 justify-content: center;
+border: 1px solid transparent;
+    
+    &:hover{
+        border-color: $colorGold;
+    }
 
     &:hover &__path{
         fill: $colorGold;
