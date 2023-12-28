@@ -19,6 +19,15 @@ body{
     }
 }
 
-.wrapper{
-    position: relative;
+
+.title{
+    @extend %mobile-h2;
+    font-weight: 300;
+    margin-bottom: 30px;
+    @media(min-width:768px){
+        margin-bottom: 35px;
+    }
+    @media(min-width:1440px){
+        margin-bottom: 35px;
+    }
 }
