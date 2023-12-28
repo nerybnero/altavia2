@@ -2,13 +2,13 @@
     <div class="container">
         <div class="about-us__body">
             <div class="about-us__left">
+                <h2 class="about-us__title title">Почему выбирают нас</h2>
                 <div class="abous-us__animation">
-                    <img class="abous-us__animation-wrapper-left" src="" alt="">
-                    <img class="abous-us__animation-centr" src="" alt="">
-                    <img class="abous-us__animation-wrapper-right" src="" alt="">
+                    <img class="abous-us__animation-centr" src="<?php bloginfo('template_url'); ?>/assets/img/bg/about-us-animation-centr.svg" alt="">
                 </div>
             </div>
             <div class="about-us__right">
+            <h2 class="about-us__title title">Почему выбирают нас</h2>
                 <div class="about-us__cards">
                     <article class="about-us__card">
                         <div class="about-us__card-top">
