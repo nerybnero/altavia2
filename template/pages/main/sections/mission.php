@@ -4,7 +4,7 @@
             <h2 class="mission__title title">Миссия компании</h2>
             <div class="mission__content">
                 <div class="mission__animation">
-
+                    <?php get_template_part('template/pages/main/blocks/ruby'); ?>
                 </div>
                 <div class="mission__innwer">
                     <div class="mission__cards">
