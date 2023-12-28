@@ -5,6 +5,9 @@
     position: relative;
     align-items: center;
     justify-content: center;
+    @media(min-width:1440px){
+        display: none;
+    }
     &::before{
         content: '';
         position: absolute;

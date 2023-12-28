@@ -4,7 +4,7 @@
     </button>
     <div class="menu__wrap">
         <ul class="menu__list">
-            <li>
+            <li class="dropdown">
                 <a href="#">Услуги</a>
                 <ul class="sub-menu">
                     <li>
@@ -58,7 +58,7 @@
 
                 </ul>
             </li>
-            <li>
+            <li  class="dropdown">
                 <a href="#">О компании</a>
                 <ul class="sub-menu">
                     <li>
@@ -87,7 +87,7 @@
             <li>
                 <a href="">Наши победы</a>
             </li>
-            <li>
+            <li class="dropdown">
                 <a href="">Инфоцентр</a>
                 <ul class="sub-menu">
                     <li>
@@ -117,6 +117,6 @@
         <a class="menu__phone phone" href="tel:+7(499)350-55-79">
             <span>+7 (499) 350-55-79</span> 
         </a>
-        <?php display_custom_button('Получить консультацию');?>  
+        <?php display_button_small('Получить консультацию');?>  
     </div>
 </nav>

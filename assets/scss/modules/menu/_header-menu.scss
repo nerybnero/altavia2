@@ -1,11 +1,108 @@
 .menu {
     display: flex;
+
     &__wrap {
         display: none;
+
+        @media(min-width:1440px) {
+            display: block;
+        }
+    }
+
+    &__wrap .button-small {
+        @media(min-width:1440px) {
+            display: none;
+        }
+    }
+
+    &__wrap .menu__phone {
+        @media(min-width:1440px) {
+            display: none;
+        }
     }
 
     &__list {
+        @media(min-width:1440px) {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        @media(min-width:1920px) {
+            gap: 32px;
+            max-width: 10111px;
+            justify-content: space-between;
+        }
     }
+
+    &__list li.dropdown {
+        position: relative;
+        padding-right: 20px;
+    }
+
+    &__list li.dropdown::before {
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translate(0, -50%);
+        background-image: url('../img/icon/menu-arrow.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 18px;
+        height: 18px;
+        cursor: pointer;
+    }
+
+    &__list>li:hover a {
+        @media(min-width:1440px) {
+            background: linear-gradient(180deg, #2C4646 0%, #678E96 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 500;
+
+        }
+
+    }
+
+    &__list>li.dropdown:hover::before {
+        background-image: url('../img/icon/menu-arrow-open.svg');
+    }
+
+    &__list>li:not(:first-child):hover {
+        @media(min-width:1440px) {
+            margin-left: -4px;
+        }
+
+    }
+
+    &__list>li:first-child:hover {
+        @media(min-width:1440px) {
+            margin-left: -2px;
+        }
+    }
+
+    &__list>li a {
+        @media(min-width:1440px) {}
+    }
+
+    &__list li a {
+        @media(min-width:1440px) {
+            font-size: 18px;
+            font-weight: 300;
+            font-family: $fontManrope;
+        }
+
+        @media(min-width:1920px) {
+            font-size: 20px;
+        }
+    }
+
 }
+
 .sub-menu {
+    display: none;
+
+    @media(min-width:1440px) {}
 }
