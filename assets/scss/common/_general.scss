@@ -5,17 +5,20 @@ body{
 }
 
 .container{
-    max-width: 345px;
+    max-width: 375px;
     margin: 0 auto;
     padding: 0 15px;
     @media(min-width:768px){
-        max-width: 708px;
+        max-width: 738px;
     }
     @media(min-width:1440px){
-        max-width: 1160px;
+        max-width: 1360px;
     }
     @media(min-width:1920px){
         max-width: 1720px;
     }
 }
 
+.wrapper{
+    position: relative;
+}
