@@ -27,14 +27,6 @@ $netural-100: #FFF;
 
 
 // типография desctop
-%desktop-h1{
-    font-size: 100px;
-    line-height: 100%;
-}
-%desktop-h2{
-    font-size: 60px;
-    line-height: 110%;
-}
 %desktop-h3{
     font-size: 34px;
     line-height: 120%;
@@ -43,10 +35,6 @@ $netural-100: #FFF;
     font-size: 20px;
     font-weight: 600;
     line-height: 120%;
-}
-%desktop-t1{
-    font-size: 24px;
-    line-height: 145%;
 }
 %desktop-t2{
     font-size: 20px;
@@ -63,14 +51,6 @@ $netural-100: #FFF;
 
 
 //типография tablet
-%tablet-h1{
-    font-size: 100px;
-    line-height: 90%;
-}
-%tablet-h2{
-    font-size: 46px;
-    line-height: 110%;
-}
 %tablet-h3{
     font-size: 30px;
     line-height: 120%;
@@ -79,10 +59,6 @@ $netural-100: #FFF;
     font-size: 18px;
     font-weight: 600;
     line-height: 120%;
-}
-%tablet-t1{
-    font-size: 22px;
-    line-height: 145%;
 }
 %tablet-t2{
     font-size: 18px;
@@ -104,11 +80,27 @@ $netural-100: #FFF;
     font-size: 50px;
     line-height: 110%;
     font-family: $fontStem;
+    @media(min-width:768px){
+        font-size: 100px;
+        line-height: 90%;
+    }
+    @media(min-width:1440px){
+        font-size: 100px;
+        line-height: 100%;
+    }
 }
 %mobile-h2{
     font-size: 30px;
     line-height: 110%;
     font-family: $fontStem;
+    @media(min-width:768px){
+        font-size: 60px;
+        line-height: 110%;
+    }
+    @media(min-width:1440px){
+          font-size: 46px;
+            line-height: 110%;
+    }
 }
 %mobile-h3{
     font-size: 24px;
@@ -124,6 +116,14 @@ $netural-100: #FFF;
 %mobile-t1{
     font-size: 18px;
     line-height: 145%;
+    @media(min-width:768px){
+        font-size: 22px;
+        line-height: 145%;
+    }
+    @media(min-width:1440px){
+        font-size: 24px;
+        line-height: 145%;
+    }
 }
 %mobile-t2{
     font-size: 16px;

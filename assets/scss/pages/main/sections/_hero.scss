@@ -1,37 +1,84 @@
-
 .hero-main {
-min-height: calc(100vh - 60px);
-background-color: #FCFAFA;
-overflow: hidden;
-position: relative;
+    min-height: calc(100vh - 60px);
+    background-color: #FCFAFA;
+    overflow: hidden;
+    position: relative;
+    @media(min-width:768px) {
+        min-height: calc(100vh - 81px);
+    }
+    @media(min-width:1440px) {
+        min-height: calc(100vh - 97px);
+    }
     &__body {
         padding-top: 70px;
         padding-bottom: 250px;
     }
-    &__shard{
+
+    &__shard {
         position: absolute;
         z-index: 20;
     }
-    &__content {
-        
+
+    &__title {}
+
+    &__title span:first-child {
+        @extend %mobile-h1;
+        color: $colorGold;
+        margin-bottom: 15px;
+
+        @media(min-width:1920px) {
+            font-size: 144px;
+        }
     }
-    &__content h1{
-       @extend %mobile-h1;
-       color: $colorGold;
-       margin-bottom: 15px; 
-    }
-    &__content h2{
+
+    &__title span:last-child {
         color: $colorGreen;
         font-family: $fontStem;
         font-size: 30px;
         font-weight: 200;
         line-height: 90%;
         margin-bottom: 50px;
+
+        @media(min-width:768px) {
+
+            font-size: 78px;
+            line-height: 90%;
+            margin-bottom: 80px;
+
+        }
+
+        @media(min-width:1920px) {
+            font-size: 184px;
+            line-height: 100%;
+        }
     }
-    &__content p{
+
+    & .button-normal {
+        @media(min-width:1920px) {
+            max-width: 553px;
+            order: -1;
+        }
+    }
+
+    &__bottom {
+        @media(min-width:1920px) {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    &__bottom p {
         @extend %mobile-t1;
         margin-bottom: 50px;
         font-weight: 600;
+
+        @media(min-width:768px) {}
+
+        @media(min-width:1920px) {
+            max-width: 729px;
+            margin-right: 70px;
+        }
+
+
     }
 }
-
