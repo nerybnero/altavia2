@@ -851,6 +851,60 @@ body {
   font-weight: 600;
 }
 
+.about-us {
+  margin-bottom: 100px;
+}
+@media (min-width: 768px) {
+  .about-us {
+    margin-bottom: 173px;
+  }
+}
+@media (min-width: 1440px) {
+  .about-us {
+    margin-bottom: 255px;
+  }
+}
+.about-us__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.about-us__card {
+  margin-bottom: 45px;
+}
+.about-us__card-top {
+  font-family: Stem;
+  font-weight: 500;
+  line-height: 120%;
+  color: #BFA380;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.about-us__text {
+  font-size: 60px;
+}
+.about-us__text-desc {
+  font-size: 20px;
+}
+.about-us__desc {
+  font-size: 14px;
+  line-height: 140%;
+  color: #666;
+  max-width: 164px;
+  width: 100%;
+}
+
 .shard-1 {
   top: 0;
   left: 0;
