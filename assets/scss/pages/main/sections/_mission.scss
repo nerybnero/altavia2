@@ -29,6 +29,7 @@ margin-bottom: 100px;
         } 
     }
     &__animation {
+        margin-bottom: 30px;
         @media(min-width:1440px){
             flex: 0 0 50%;
             order: 2;
