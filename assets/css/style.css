@@ -109,10 +109,34 @@ a {
   line-height: 110%;
   font-family: Stem;
 }
+@media (min-width: 768px) {
+  .hero-main__content h1 {
+    font-size: 100px;
+    line-height: 90%;
+  }
+}
+@media (min-width: 1440px) {
+  .hero-main__content h1 {
+    font-size: 100px;
+    line-height: 100%;
+  }
+}
 
 .hero-main__content p {
   font-size: 18px;
   line-height: 145%;
+}
+@media (min-width: 768px) {
+  .hero-main__content p {
+    font-size: 22px;
+    line-height: 145%;
+  }
+}
+@media (min-width: 1440px) {
+  .hero-main__content p {
+    font-size: 24px;
+    line-height: 145%;
+  }
 }
 
 body {
@@ -749,11 +773,17 @@ body {
   line-height: 90%;
   margin-bottom: 50px;
 }
+@media (min-width: 768px) {
+  .hero-main__content h2 {
+    font-size: 78px;
+    line-height: 90%;
+    margin-bottom: 80px;
+  }
+}
 .hero-main__content p {
   margin-bottom: 50px;
   font-weight: 600;
 }
-
 .shard-1 {
   top: 0;
   left: 0;
