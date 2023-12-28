@@ -7,13 +7,19 @@ display: flex;
 align-items: center;
 justify-content: center;
 border: 1px solid transparent;
+transition: border-color 0.5s ease;
+
+    &__path{
+        fill: $colorGold;
+        stroke: $colorGold;
+    }
     
     &:hover{
         border-color: $colorGold;
+        transition: border-color 0.5s ease;
     }
 
     &:hover &__path{
-        fill: $colorGold;
-        stroke: $colorGold;
+        transition: fill 0.5s ease, stroke 0.3s ease;
     }
 }
