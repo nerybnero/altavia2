@@ -9,12 +9,15 @@
     <img class="hero-main__shard shard-8" src="<?php bloginfo('template_url'); ?>/assets/img/bg/shard-18.svg" alt="Осколок"> -->
     <div class="container">
         <div class="hero-main__body">
-            <div class="hero-main__content">
-                <h1>Избавим вас от преград</h1>
-                <h2>на пути к вершине</h2>
-                <p>Равным образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации систем массового участия.</p>
-            </div>
+            <h1 class="hero-main__title">
+                <span>Избавим вас от преград</span>
+                <span>на пути к вершине</span>
+            </h1>
+            <div class="hero-main__bottom">
+                      <p>Равным образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации систем массового участия.</p>
             <?php display_button_normal('Расчистить путь');?>   
+            </div>
+        
         </div>
     </div>
 </section>

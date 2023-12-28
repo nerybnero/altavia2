@@ -1,0 +1,14 @@
+.button-arrow{
+
+width: 32px;
+height: 32px;
+background-color: $colorBackground;
+display: flex;
+align-items: center;
+justify-content: center;
+
+    &:hover &__path{
+        fill: $colorGold;
+        stroke: $colorGold;
+    }
+}
