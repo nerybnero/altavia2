@@ -1,1 +1,1 @@
-<button class="button-services"><span>Читать подробнее</span></button>
+<button class="button-services"><span>Связаться с нами</span></button>
