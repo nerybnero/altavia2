@@ -3,11 +3,14 @@
     background-color: #FCFAFA;
     overflow: hidden;
     position: relative;
+    margin-bottom: 100px;
     @media(min-width:768px) {
         min-height: calc(100vh - 81px);
+        margin-bottom: 150px;
     }
     @media(min-width:1440px) {
-        min-height: calc(100vh - 97px);
+        min-height: calc(100vh - 107px);
+        margin-bottom: 240px;
     }
     &__body {
         padding-top: 70px;
