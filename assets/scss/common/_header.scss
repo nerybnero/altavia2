@@ -8,9 +8,28 @@
         padding: 10px 0;
         @media(min-width:768px){
             justify-content: flex-start;
+            padding: 16px 0;
+        }
+        @media(min-width:1440px){
+           padding: 20px 0;
         }
     }
-
+    &__logo{
+        @media(min-width:768px){
+            margin-left: 72px;
+        }
+        @media(min-width:1440px){
+            margin-left: 0;
+            margin-right: 65px;
+            order: -1;
+        }
+        .logo__img{
+            max-width: 122px;
+            @media(min-width:768px){
+                max-width: 160px;
+            }
+        }
+    }
     & .phone {
         border-radius: 2px;
         background: $colorBackground;
@@ -20,6 +39,20 @@
         position: relative;
         @media(min-width:768px){
             margin-left: auto;
+        }
+        @media(min-width:1920px){
+           flex: 0 0 221px;
+           padding-left: 30px;
+           background-color: transparent;
+        }
+    }
+    & .phone:hover span{
+        @media(min-width:1440px) {
+            background: linear-gradient(180deg, #2C4646 0%, #678E96 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 500;
         }
     }
     & .button-small{
@@ -32,6 +65,11 @@
     }
     & .phone span{
         display: none;
+        @media(min-width:1920px){
+            display: inline-block;
+            font-size: 20px;
+            font-weight: 300;
+        }
     }
     & .phone::before{
         content: '';
@@ -44,8 +82,13 @@
         background-size: contain;
         width: 21px;
         height: 21px;
+        @media(min-width:1920px){
+           left: 0;
+           transform: translate(0, -57%);
+           width: 24px;
+           height: 24px;
+         }
     }
-
 }
 
 
