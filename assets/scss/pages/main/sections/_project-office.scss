@@ -1,0 +1,141 @@
+.project-office {
+margin-bottom: 100px;
+@media(min-width:768px){
+    margin-bottom: 180px;
+}
+@media(min-width:1440px){
+    margin-bottom: 250px;
+}
+    &__body {
+    }
+
+    &__top {
+        @media(min-width:1440px){
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    &__title {
+        @extend %mobile-h2;
+        font-weight: 350;
+        margin-bottom: 30px;
+        color: $netural-10;
+    }
+
+    &__desc {
+        color: $netural-10;
+        @extend %mobile-t1;
+        margin-bottom: 35px;
+        max-width: 800px;
+        width: 100%;
+    }
+
+    &__bottom {
+    }
+
+    &__cards {
+        @media(min-width:768px){
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    }
+
+    &__card {
+        border-radius: 2px;
+        background: $colorBackground;
+        padding: 15px 15px 20px 15px;
+        margin-bottom: 15px;
+        @media(min-width:768px){
+            padding: 5px 20px 25px 20px;
+            max-width: 344px;
+            width: 100%;
+            max-height: 330px;
+        }
+        @media(min-width:1440px){
+            max-width: 408px;
+            max-height: 355px;
+            overflow: hidden;
+        }
+    }
+
+    &__card-number {
+        color: $colorGold;
+        font-family: $fontStem;
+        font-size: 60px;
+        font-weight: 500;
+        line-height: 120%;
+        margin-bottom: 10px;
+        @media(min-width:768px){
+            margin-bottom: 50px;
+            font-size: 90px;
+        }
+    }
+
+    &__card-title {
+        @extend %mobile-h4;
+        margin-bottom: 15px;
+        color: $netural-10;
+        font-family: $fontManrope;
+        @media(min-width:1440px){
+            margin-bottom: 30px;
+        }
+    }
+
+    &__card-desc {
+        @extend %mobile-textcard;
+        color: $netural-40;
+        width: 305px;
+    }
+
+    & .button-secondary{
+        margin-bottom: 30px;
+        @media(min-width:768px){
+            display: none;
+        }
+    }
+
+    & .button-normal{
+        @media(min-width:768px){
+        max-width: 344px;
+        width: 100%;
+        margin-top: 256px;
+        }
+        @media(min-width:1440px){
+            max-width: 408px;
+            margin-top: 286px;
+        }
+    }
+
+    .project-office__card {
+        display: block;
+    }
+    
+    .project-office__card.hidden-card {
+        display: none;
+        @media(min-width:768px){
+            display: block;
+        }
+    }
+
+    // Анимация при наведении----------
+    @media(min-width:1440px){
+    .project-office__card .project-office__card-number {
+        font-size: 140px;
+        margin-bottom: 143px;
+        margin-top: -20px;
+        opacity: 0.4;
+        transition: all 1s ease;
+    }
+    
+    .project-office__card:hover .project-office__card-number {
+        font-size: 90px;
+        margin-bottom: 50px;
+        padding-top: 30px;
+        opacity: 1;
+        margin-top: -40px;
+    }
+}
+    
+}

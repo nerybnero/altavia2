@@ -102,6 +102,12 @@ $netural-100: #FFF;
     font-weight: 600;
     line-height: 120%;
     font-family: $fontStem;
+    @media(min-width:768px){
+        font-size: 18px;
+    }
+    @media(min-width:1440px){
+        font-size: 20px;
+    }
 }
 %mobile-t1{
     font-size: 18px;
