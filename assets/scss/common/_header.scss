@@ -1,44 +1,50 @@
 .header {
-    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 0vw 1.067vw 4vw 0vw rgba(0, 0, 0, 0.05);
     &__body {
         display: flex;
         justify-content: space-between;
-        min-height: 60px;
+        min-height: 16vw;
         align-items: center;
-        padding: 10px 0;
+        padding: 2.667vw 0vw;
         @media(min-width:768px){
             justify-content: flex-start;
-            padding: 16px 0;
+            padding: 2.083vw 0vw;
         }
-        @media(min-width:1440px){
+        @media(min-width:1920px){
            padding: 20px 0;
         }
     }
     &__logo{
         @media(min-width:768px){
-            margin-left: 72px;
+            margin-left: 9.375vw;
         }
-        @media(min-width:1440px){
+        @media(min-width:1920px){
             margin-left: 0;
             margin-right: 65px;
             order: -1;
         }
         .logo__img{
-            max-width: 122px;
+            width: 100%;
+            flex: 0 0 32.533vw;
             @media(min-width:768px){
-                max-width: 160px;
+                max-width: 20.833vw;
             }
         }
     }
     & .phone {
-        border-radius: 2px;
+        border-radius: 0.533vw;
         background: $colorBackground;
-        height: 40px;
-        flex: 0 0 40px;
-        padding: 6px;
+        height: 10.667vw;
+        flex: 0 0 10.667vw;
+        padding: 1.6vw;
         position: relative;
         @media(min-width:768px){
             margin-left: auto;
+            border-radius: 0.26vw;
+        background: $colorBackground;
+        height: 5.208vw;
+        flex: 0 0 5.208vw;
+        padding: 0.781vw;
         }
         @media(min-width:1920px){
            flex: 0 0 221px;
@@ -47,7 +53,7 @@
         }
     }
     & .phone:hover span{
-        @media(min-width:1440px) {
+        @media(min-width:1920px) {
             background: linear-gradient(180deg, #2C4646 0%, #678E96 100%);
             background-clip: text;
             -webkit-background-clip: text;
@@ -60,7 +66,7 @@
         @media(min-width:768px){
             display: flex;
             position: relative;
-            margin-left: 20px;
+            margin-left: 2.604vw;
         }
     }
     & .phone span{
@@ -80,8 +86,12 @@
         background-image: url('../img/icon/phone.svg');
         background-repeat: no-repeat;
         background-size: contain;
-        width: 21px;
-        height: 21px;
+        width: 5.6vw;
+        height: 5.6vw;
+        @media(min-width:768px){
+            width: 3.646vw;
+            height: 3.646vw;
+        }
         @media(min-width:1920px){
            left: 0;
            transform: translate(0, -57%);

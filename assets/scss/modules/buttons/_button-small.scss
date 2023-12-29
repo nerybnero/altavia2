@@ -1,25 +1,25 @@
 .button-small{
     background: linear-gradient(180deg, #2C4646 0%, #678E96 100%);
-    border-radius: 2px;
+    border-radius: 0.533vw;
     position: relative;
     display: flex;
     align-items: center;
     max-width: 100%;
     justify-content: center;
-    padding: 18px 20px;
-    height: 57px;
+    padding: 4.8vw 5.333vw;
+    max-height: 13.067vw;
     width: 100%;
     @media(min-width:768px){
         display: flex;
-        padding: 18px 20px;
-        max-width: 275px;
+        padding: 2.344vw 2.604vw;
+        max-width: 35.807vw;
         width: 100%;
-        height: 49px;
+        max-height: 6.38vw;
     }
-    @media(min-width:1440px){
+    @media(min-width:1920px){
         padding: 22px 20px;
         max-width: 262px;
-        height: 57px;
+        max-height: 57px;
     }
 
     // добавляем анимацию при наведении------
@@ -50,8 +50,14 @@
     & span{
         color: #fff;
         font-weight: 600;
-        font-size: 18px;
+        font-size: 4.267vw;
         position: relative;
+        @media(min-width:768px){
+            font-size: 2.083vw;
+        }
+        @media(min-width:1920px){
+            font-size: 18px;
+        }
     }
 
 }

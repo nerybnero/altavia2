@@ -1,11 +1,11 @@
 .sotial-youtube{
-    border-radius: 2px;
-    border: 1px solid $colorGold;
+    border-radius: 0.533vw;
+    border: 0.267vw solid $colorGold;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 45px;
-    height: 45px;
+    width: 12vw;
+    height: 12vw;
     position: relative;
     transition: border .3s ease;
     overflow: hidden;
@@ -23,13 +23,13 @@
 
 &:hover{
     border: none;
-    border-radius: 2px;
+    border-radius: 0.533vw;
     border-color: $colorGreen;
 }
 
 &:hover::before{
     opacity: 1;
-    border-radius: 2px;
+    border-radius: 0.533vw;
 }
 
 &:hover svg stop:first-child{

@@ -1,20 +1,20 @@
 .hero-main {
-    min-height: calc(100vh - 60px);
+    min-height: calc(100vh - 16vw);
     background-color: #FCFAFA;
     overflow: hidden;
     position: relative;
-    margin-bottom: 100px;
+    margin-bottom: 26.667vw;
     @media(min-width:768px) {
         min-height: calc(100vh - 81px);
         margin-bottom: 150px;
     }
-    @media(min-width:1440px) {
+    @media(min-width:1920px) {
         min-height: calc(100vh - 107px);
         margin-bottom: 240px;
     }
     &__body {
-        padding-top: 70px;
-        padding-bottom: 250px;
+        padding-top: 18.667vw;
+        padding-bottom: 66.667vw;
     }
 
     &__shard {
@@ -27,7 +27,7 @@
     &__title span:first-child {
         @extend %mobile-h1;
         color: $colorGold;
-        margin-bottom: 15px;
+        margin-bottom: 4vw;
 
         @media(min-width:1920px) {
             font-size: 144px;
@@ -37,13 +37,12 @@
     &__title span:last-child {
         color: $colorGreen;
         font-family: $fontStem;
-        font-size: 30px;
+        font-size: 8vw;
         font-weight: 200;
         line-height: 90%;
-        margin-bottom: 50px;
+        margin-bottom: 13.333vw;
 
         @media(min-width:768px) {
-
             font-size: 78px;
             line-height: 90%;
             margin-bottom: 80px;
@@ -72,9 +71,8 @@
 
     &__bottom p {
         @extend %mobile-t1;
-        margin-bottom: 50px;
+        margin-bottom: 13.333vw;
         font-weight: 600;
-
         @media(min-width:768px) {}
 
         @media(min-width:1920px) {
