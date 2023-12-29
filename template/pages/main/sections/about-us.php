@@ -3,9 +3,7 @@
         <div class="about-us__body">
             <div class="about-us__left">
                 <h2 class="about-us__title title">Почему выбирают нас</h2>
-                <div class="abous-us__animation">
-                    <img class="abous-us__animation-centr" src="<?php bloginfo('template_url'); ?>/assets/img/bg/about-us-animation-centr.svg" alt="">
-                </div>
+                <?php get_template_part('template/pages/main/blocks/about-us-anime'); ?>
             </div>
             <div class="about-us__right">
             <h2 class="about-us__title title">Почему выбирают нас</h2>

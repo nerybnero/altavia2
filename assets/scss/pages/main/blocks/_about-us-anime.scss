@@ -1,0 +1,84 @@
+.about-us {
+
+    &__animation {
+    }
+
+    &__animation-box {
+        position: relative;
+        height: 186px;
+        width: 345px;
+        @media(min-width:778px){
+            width: 708px;
+            height: 372px;
+        }
+    }
+
+    &__animation-2 {
+        left: 50%;
+        top: 0;
+        transform: translate(-50%, 0);
+        max-width: 106px;
+        width: 100%;
+        @media(min-width:778px){
+           max-width: 214px;
+        }
+    }
+
+    &__image {
+        position: absolute;
+    }
+
+    &__animation-3 {
+        left: 63px;
+        bottom: 0;
+        max-width: 106px;
+        width: 100%;
+        @media(min-width:778px){
+            max-width: 214px;
+            left: 135px;
+         }
+    }
+
+    &__animation-4 {
+        right: 62px;
+        bottom: 0;
+        max-width: 106px;
+        width: 100%;
+        @media(min-width:778px){
+            max-width: 214px;
+            right: 134px;
+         }
+    }
+
+    &__animation-before {
+        left: 0;
+        top: 0;
+        max-width: 168px;
+        width: 100%;
+        @media(min-width:778px){
+            max-width: 336px;
+         }
+    }
+
+    &__animation-after {
+        right: 0;
+        top: 0;
+        max-width: 167px;
+        width: 100%;
+        @media(min-width:778px){
+            max-width: 333px;
+         }
+    }
+
+    &__animation-centr {
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%, 0);
+        max-width: 106px;
+        width: 100%;
+        @media(min-width:778px){
+            bottom: -1px;
+            max-width: 214px;
+         }
+    }
+}
