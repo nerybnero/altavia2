@@ -5,22 +5,22 @@
 
     &__animation-box {
         position: relative;
-        height: 186px;
-        width: 345px;
+        height: 49.6vw;
+        width: 92vw;
         @media(min-width:778px){
-            width: 708px;
-            height: 372px;
+            width: 92.188vw;
+            height: 48.438vw;
         }
     }
 
     &__animation-2 {
         left: 50%;
-        top: 0;
+        top: 0vw;
         transform: translate(-50%, 0);
-        max-width: 106px;
+        max-width: 28.267vw;
         width: 100%;
         @media(min-width:778px){
-           max-width: 214px;
+           max-width: 27.865vw;
         }
     }
 
@@ -29,56 +29,56 @@
     }
 
     &__animation-3 {
-        left: 63px;
-        bottom: 0;
-        max-width: 106px;
+        left: 16.8vw;
+        bottom: 0vw;
+        max-width: 28.267vw;
         width: 100%;
         @media(min-width:778px){
-            max-width: 214px;
-            left: 135px;
+            max-width: 27.865vw;
+            left: 17.578vw;
          }
     }
 
     &__animation-4 {
-        right: 62px;
-        bottom: 0;
-        max-width: 106px;
+        right: 16.533vw;
+        bottom: 0vw;
+        max-width: 28.267vw;
         width: 100%;
         @media(min-width:778px){
-            max-width: 214px;
-            right: 134px;
+            max-width: 27.865vw;
+            right: 17.448vw;
          }
     }
 
     &__animation-before {
-        left: 0;
-        top: 0;
-        max-width: 168px;
+        left: 0vw;
+        top: 0vw;
+        max-width: 44.8vw;
         width: 100%;
         @media(min-width:778px){
-            max-width: 336px;
+            max-width: 43.75vw;
          }
     }
 
     &__animation-after {
-        right: 0;
-        top: 0;
-        max-width: 167px;
+        right: 0vw;
+        top: 0vw;
+        max-width: 44.533vw;
         width: 100%;
         @media(min-width:778px){
-            max-width: 333px;
+            max-width: 43.359vw;
          }
     }
 
     &__animation-centr {
         left: 50%;
-        bottom: 0;
+        bottom: 0vw;
         transform: translate(-50%, 0);
-        max-width: 106px;
+        max-width: 28.267vw;
         width: 100%;
         @media(min-width:778px){
-            bottom: -1px;
-            max-width: 214px;
+            bottom: -0.13vw;
+            max-width: 27.865vw;
          }
     }
 }

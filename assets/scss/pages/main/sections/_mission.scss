@@ -1,9 +1,9 @@
 .mission {
-margin-bottom: 100px;
+margin-bottom: 26.667vw;
 @media(min-width:768px){
-    margin-bottom: 173px;
+    margin-bottom: 22.526vw;
 }
-@media(min-width:1440px){
+@media(min-width:1920px){
     margin-bottom: 255px;
 }
     &__body {}
@@ -11,27 +11,27 @@ margin-bottom: 100px;
     &__title {}
 
     &__content {
-        @media(min-width:1440px){
+        @media(min-width:1920px){
             display: flex;
             justify-content: space-between;
             gap: 50px;
         }
     }
     &__inner{
-        @media(min-width:1440px){
+        @media(min-width:1920px){
             flex: 0 0 43%;
             order: 1;
         }
     }
     & .button-normal{
-        @media(min-width:1440px){
+        @media(min-width:1920px){
             max-width: 407px;
         } 
     }
     &__animation {
-        margin-bottom: 30px;
+        margin-bottom: 8vw;
         
-        @media(min-width:1440px){
+        @media(min-width:1920px){
             flex: 0 0 50%;
             order: 2;
         }
@@ -44,22 +44,22 @@ margin-bottom: 100px;
 
     &__card {
         display: flex;
-        gap: 15px;
-        margin-bottom: 30px;
+        gap: 4vw;
+        margin-bottom: 8vw;
         @media(min-width:768px){
-            gap: 20px;
-            margin-bottom: 40px;
+            gap: 2.604vw;
+            margin-bottom: 5.208vw;
         }
     }
 
     &__card-left {}
 
     &__card-img {
-        flex: 0 0 40px;
-        height: 40px;
+        flex: 0 0 10.667vw;
+        height: 10.667vw;
         @media(min-width:768px){
-            flex: 0 0 54px;
-            height: 54px;
+            flex: 0 0 7.031vw;
+            height: 7.031vw;
         }
     }
 
@@ -67,15 +67,15 @@ margin-bottom: 100px;
 
     &__cards-title {
         color: $colorGold;
-        font-size: 20px;
+        font-size: 5.333vw;
         font-weight: 600;
         line-height: 120%;
-        letter-spacing: -0.22px;
-        margin-bottom: 15px;
+        letter-spacing: -0.059vw;
+        margin-bottom: 4vw;
         @media(min-width:768px){
-          font-size: 22px;
-          margin-bottom: 20px;  
-          letter-spacing: -0.242px;
+          font-size: 2.865vw;
+          margin-bottom: 2.604vw;  
+          letter-spacing: -0.032vw;
         }
     }
 

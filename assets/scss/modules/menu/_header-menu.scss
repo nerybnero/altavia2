@@ -4,25 +4,25 @@
     &__wrap {
         display: none;
 
-        @media(min-width:1440px) {
+        @media(min-width:1920px) {
             display: block;
         }
     }
 
     &__wrap .button-small {
-        @media(min-width:1440px) {
+        @media(min-width:1920px) {
             display: none;
         }
     }
 
     &__wrap .menu__phone {
-        @media(min-width:1440px) {
+        @media(min-width:1920px) {
             display: none;
         }
     }
 
     &__list {
-        @media(min-width:1440px) {
+        @media(min-width:1920px) {
             display: flex;
             align-items: center;
             gap: 20px;
@@ -37,25 +37,25 @@
 
     &__list li.dropdown {
         position: relative;
-        padding-right: 20px;
+        padding-right: 5.333vw;
     }
 
     &__list li.dropdown::before {
         content: '';
         position: absolute;
-        right: 0;
+        right: 0vw;
         top: 50%;
         transform: translate(0, -50%);
         background-image: url('../img/icon/menu-arrow.svg');
         background-repeat: no-repeat;
         background-size: contain;
-        width: 18px;
-        height: 18px;
+        width: 4.8vw;
+        height: 4.8vw;
         cursor: pointer;
     }
 
     &__list>li:hover a {
-        @media(min-width:1440px) {
+        @media(min-width:1920px) {
             background: linear-gradient(180deg, #2C4646 0%, #678E96 100%);
             background-clip: text;
             -webkit-background-clip: text;
@@ -71,24 +71,24 @@
     }
 
     &__list>li:not(:first-child):hover {
-        @media(min-width:1440px) {
+        @media(min-width:1920px) {
             margin-left: -4px;
         }
 
     }
 
     &__list>li:first-child:hover {
-        @media(min-width:1440px) {
+        @media(min-width:1920px) {
             margin-left: -2px;
         }
     }
 
     &__list>li a {
-        @media(min-width:1440px) {}
+        @media(min-width:1920px) {}
     }
 
     &__list li a {
-        @media(min-width:1440px) {
+        @media(min-width:1920px) {
             font-size: 18px;
             font-weight: 300;
             font-family: $fontManrope;

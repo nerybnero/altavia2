@@ -7,13 +7,13 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-height: 53px;
-    padding: 18px 40px;
+    max-height: 14.133vw;
+    padding: 4.8vw 10.667vw;
     @media(min-width:768px){
-        max-height: 61px;
-        padding: 22px 40px;
+        max-height: 7.943vw;
+        padding: 2.865vw 5.208vw;
     }
-    @media(min-width:1440px){
+    @media(min-width:1920px){
         max-height: 69px;
         padding: 16px 36px;
     }
@@ -38,13 +38,13 @@
     & span{
         color: $netural-100;
         font-weight: 600;
-        font-size: 18px;
+        font-size: 4.8vw;
         position: relative;
         transition: color 0.3s ease;
         @media(min-width:768px){
-            font-size: 20px;
+            font-size: 2.604vw;
         }
-        @media(min-width:1440px){
+        @media(min-width:1920px){
             font-size: 24px;
         }
     }

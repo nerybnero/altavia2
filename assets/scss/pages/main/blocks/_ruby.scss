@@ -1,10 +1,10 @@
 .ruby {
     position: relative;
-    width: 345px;
-    height: 299px;
+    width: 92vw;
+    height: 79.733vw;
     @media(min-width:768px){
-        width: 466px;
-        height: 403px;
+        width: 60.677vw;
+        height: 52.474vw;
         margin: 0 auto;
     }
     @media(min-width:1920px){
@@ -18,13 +18,13 @@
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        max-width: 171px;
+        max-width: 45.6vw;
         width: 100%;
-        height: 149px;
+        height: 39.733vw;
         line-height: 100%;
         @media(min-width:768px){
-            max-width: 230px;
-            height: 200px;
+            max-width: 29.948vw;
+            height: 26.042vw;
         }
         @media(min-width:1920px){
             max-width: 419px;
@@ -33,53 +33,65 @@
     }
 
     &__item:nth-child(2) {
-        top: 0;
-        left: 87px;
+        top: 0vw;
+        left: 23.2vw;
         @media(min-width:768px){
-            left: 118px;
+            left: 15.365vw;
         }
         @media(min-width:1920px){
             left: 213px;
         }
     }
     &__item:nth-child(2) &__sub-title-2 {
-        margin-bottom: 25px;
+        margin-bottom: 6.667vw;
         @media(min-width:1920px){
             margin-bottom: 72px;
         }
     }
     &__item:nth-child(3) &__sub-title-2 {
-        margin-top: 61px;
+        margin-top: 61.001px;
+        @media(min-width:768px){
+            margin-top: 7.943vw;
+        }
     }
     &__item:nth-child(4) &__sub-title-2 {
-        margin-bottom: 90px;
+        margin-bottom: 24vw;
+        @media(min-width:768px){
+            margin-bottom: 11.719vw;
+        }
     }
     &__item:nth-child(5) &__sub-title-2 {
-        margin-top: 68px;
+        margin-top: 18.133vw;
+        @media(min-width:768px){
+            margin-top: 8.854vw;
+        }
         @media(min-width:1920px){
             margin-top: 141px;
         }
     }
     &__item:nth-child(6) &__sub-title-2 {
-        margin-bottom: 87px;
+        margin-bottom: 23.2vw;
+        @media(min-width:768px){
+            margin-bottom: 11.328vw;
+        }
     }
 
     &__item:nth-child(3) {
-        top: 0;
-        right: 0;
+        top: 0vw;
+        right: 0vw;
 
     }
 
     &__item:nth-child(4) {
-        bottom: 0;
-        right: 0;
+        bottom: 0vw;
+        right: 0vw;
     }
 
     &__item:nth-child(5) {
-        bottom: 0;
-        left: 87px;
+        bottom: 0vw;
+        left: 23.2vw;
         @media(min-width:768px){
-            left: 118px;
+            left: 15.365vw;
         }
         @media(min-width:1920px){
             left: 213px;
@@ -87,8 +99,8 @@
     }
 
     &__item:nth-child(6) {
-        bottom: 0;
-        left: 0;
+        bottom: 0vw;
+        left: 0vw;
     }
 
 
@@ -96,11 +108,13 @@
         position: absolute;
         top: 50%;
         left: 50%;
+        max-width: 45.6vw;
+        height: 39.733vw;
         transform: translate(-50%, -50%);
         @media(min-width:768px){
-            max-width: 230px;
+            max-width: 29.948vw;
             width: 100%;
-            height: 200px;
+            height: 26.042vw;
         }
         @media(min-width:1920px){
             max-width: 419px;
@@ -114,12 +128,12 @@
         z-index: 2;
         color: $netural-100;
         font-weight: 600;
-        letter-spacing: -0.143px;
-        margin-bottom: 6px;
-        margin-top: 50px;
-        font-size: 13px;
+        letter-spacing: -0.038vw;
+        margin-bottom: 1.6vw;
+        margin-top: 13.333vw;
+        font-size: 3.467vw;
         @media(min-width:768px){
-            font-size: 14px;
+            font-size: 1.823vw;
         }
         @media(min-width:1920px){
            font-size: 24px;
@@ -131,12 +145,12 @@
     &__title {
         position: relative;
         z-index: 2;
-        font-size: 18px;
+        font-size: 4.8vw;
         color: $netural-100;
         font-weight: 700;
-        letter-spacing: -0.198px;
+        letter-spacing: -0.053vw;
         @media(min-width:768px){
-            font-size: 26px;
+            font-size: 3.385vw;
         }
         @media(min-width:1920px){
             font-size: 46px;
@@ -147,17 +161,16 @@
     &__sub-title-2 {
         position: relative;
         z-index: 2;
-        font-size: 13px;
+        font-size: 3.467vw;
         font-weight: 500;
-        max-width: 102px;
+        max-width: 28vw;
         display: block;
         margin: 0 auto;
         text-align: center;
         line-height: normal;
         @media(min-width:768px){
-            font-size: 14px;
-            max-width: 110px;
-
+            font-size: 1.823vw;
+            max-width: 14.323vw;
         }
         @media(min-width:1920px){
           font-size: 24px;
