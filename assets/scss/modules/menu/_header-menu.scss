@@ -4,33 +4,33 @@
     &__wrap {
         display: none;
 
-        @media(min-width:1920px) {
+        @media(min-width:1360px) {
             display: block;
         }
     }
 
     &__wrap .button-small {
-        @media(min-width:1920px) {
+        @media(min-width:1360px) {
             display: none;
         }
     }
 
     &__wrap .menu__phone {
-        @media(min-width:1920px) {
+        @media(min-width:1360px) {
             display: none;
         }
     }
 
     &__list {
-        @media(min-width:1920px) {
+        @media(min-width:1360px) {
             display: flex;
             align-items: center;
-            gap: 20px;
+            gap: 1.042vw;
         }
 
-        @media(min-width:1920px) {
-            gap: 32px;
-            max-width: 10111px;
+        @media(min-width:1360px) {
+            gap: 1.667vw;
+            max-width: 526.615vw;
             justify-content: space-between;
         }
     }
@@ -38,6 +38,9 @@
     &__list li.dropdown {
         position: relative;
         padding-right: 5.333vw;
+        @media(min-width:1360px) {
+            padding-right: 1.042vw;
+        }
     }
 
     &__list li.dropdown::before {
@@ -52,10 +55,14 @@
         width: 4.8vw;
         height: 4.8vw;
         cursor: pointer;
+        @media(min-width:1360px) {
+            width: 0.938vw;
+            height: 0.938vw;
+        }
     }
 
     &__list>li:hover a {
-        @media(min-width:1920px) {
+        @media(min-width:1360px) {
             background: linear-gradient(180deg, #2C4646 0%, #678E96 100%);
             background-clip: text;
             -webkit-background-clip: text;
@@ -71,31 +78,31 @@
     }
 
     &__list>li:not(:first-child):hover {
-        @media(min-width:1920px) {
-            margin-left: -4px;
+        @media(min-width:1360px) {
+            margin-left: -0.208vw;
         }
 
     }
 
     &__list>li:first-child:hover {
-        @media(min-width:1920px) {
-            margin-left: -2px;
+        @media(min-width:1360px) {
+            margin-left: -0.104vw;
         }
     }
 
     &__list>li a {
-        @media(min-width:1920px) {}
+        @media(min-width:1360px) {}
     }
 
     &__list li a {
-        @media(min-width:1920px) {
-            font-size: 18px;
+        @media(min-width:1360px) {
+            font-size: 0.938vw;
             font-weight: 300;
             font-family: $fontManrope;
         }
 
-        @media(min-width:1920px) {
-            font-size: 20px;
+        @media(min-width:1360px) {
+            font-size: 1.042vw;
         }
     }
 
@@ -103,6 +110,4 @@
 
 .sub-menu {
     display: none;
-
-    @media(min-width:1440px) {}
 }

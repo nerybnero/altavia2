@@ -1,20 +1,24 @@
 .hero-main {
-    min-height: calc(100vh - 16vw);
+    min-height: 200.533vw;
     background-color: #FCFAFA;
     overflow: hidden;
     position: relative;
     margin-bottom: 26.667vw;
     @media(min-width:768px) {
-        min-height: calc(100vh - 81px);
-        margin-bottom: 150px;
+        min-height: 122.917vw;
+        margin-bottom: 19.531vw;
     }
     @media(min-width:1920px) {
         min-height: calc(100vh - 107px);
         margin-bottom: 240px;
     }
     &__body {
-        padding-top: 18.667vw;
-        padding-bottom: 66.667vw;
+        padding-top: 19.733vw;
+        padding-bottom: 68.533vw;
+        @media(min-width:768px){
+            padding-bottom: 37.5vw;
+            padding-top: 10.677vw;
+        }
     }
 
     &__shard {
@@ -43,9 +47,9 @@
         margin-bottom: 13.333vw;
 
         @media(min-width:768px) {
-            font-size: 78px;
+            font-size: 9.156vw;
             line-height: 90%;
-            margin-bottom: 80px;
+            margin-bottom: 10.417vw;
 
         }
 

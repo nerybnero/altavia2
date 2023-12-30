@@ -94,7 +94,7 @@
                     </article>
                     <?php display_button_secondary('Показать все'); ?>
 
-                    <?php display_button_normal('Получить консультацию'); ?>
+                    <?php display_button_normal('Читать подробнее'); ?>
                 </div>
             </div>
         </div>
