@@ -7,11 +7,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    max-height: 14.133vw;
+    height: 13.067vw;
     @media(min-width:768px){
         padding: 2.865vw 5.208vw;
-        max-height: 7.943vw;
         border-radius: 0.26vw;
+        height: 7.682vw;
     }
     @media(min-width:1360px){
         padding: 1.354vw 2.083vw;

@@ -30,7 +30,7 @@
 
         @media(min-width:1360px) {
             gap: 1.667vw;
-            max-width: 10111px;
+            max-width: 526.615vw;
             justify-content: space-between;
         }
     }
@@ -55,6 +55,10 @@
         width: 0.938vw;
         height: 0.938vw;
         cursor: pointer;
+        @media(min-width:1360px) {
+            width: 0.938vw;
+            height: 0.938vw;
+        }
     }
 
     &__list>li:hover a {
@@ -106,6 +110,4 @@
 
 .sub-menu {
     display: none;
-
-    @media(min-width:1440px) {}
 }

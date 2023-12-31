@@ -7,14 +7,15 @@
     max-width: 100%;
     justify-content: center;
     padding: 4.8vw 5.333vw;
-    max-height: 13.067vw;
+    height: 12.8vw;
     width: 100%;
+    line-height: 1;
     @media(min-width:768px){
         display: flex;
-        padding: 2.344vw 2.604vw;
+        padding: 2.344vw;
         max-width: 35.807vw;
         width: 100%;
-        max-height: 6.38vw;
+        height: 6.25vw;
     }
     @media(min-width:1360px){
         padding: 1.146vw 1.042vw;

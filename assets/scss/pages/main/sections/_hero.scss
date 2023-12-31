@@ -1,9 +1,11 @@
 .hero-main {
+    min-height: 200.533vw;
     background-color: #FCFAFA;
     overflow: hidden;
     position: relative;
     margin-bottom: 26.667vw;
     @media(min-width:768px) {
+        min-height: 122.917vw;
         margin-bottom: 19.531vw;
     }
     @media(min-width:1360px){
