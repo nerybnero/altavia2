@@ -869,7 +869,7 @@ body {
     height: 6.25vw;
   }
 }
-@media (min-width: 1920px) {
+@media (min-width: 1360px) {
   .button-small {
     padding: 22px 20px;
     max-width: 262px;
