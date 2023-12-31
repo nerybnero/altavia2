@@ -5,8 +5,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    max-height: 13.067vw;
+    max-height: 49.001px;
     border: 0.267vw solid $colorGold;
+    padding: 3.2vw 9.6vw;
     @media(min-width:768px){
         padding: 2.865vw 5.208vw;
         max-height: 7.552vw;

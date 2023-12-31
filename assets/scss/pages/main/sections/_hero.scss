@@ -1,20 +1,24 @@
 .hero-main {
-    min-height: calc(100vh - 16vw);
     background-color: #FCFAFA;
     overflow: hidden;
     position: relative;
     margin-bottom: 26.667vw;
     @media(min-width:768px) {
-        min-height: calc(100vh - 81px);
-        margin-bottom: 150px;
+        margin-bottom: 19.531vw;
     }
-    @media(min-width:1920px) {
-        min-height: calc(100vh - 107px);
-        margin-bottom: 240px;
+    @media(min-width:1360px){
+        margin-bottom: 12.5vw;
     }
+
     &__body {
         padding-top: 18.667vw;
         padding-bottom: 66.667vw;
+        @media(min-width:768px){
+            padding: 10.677vw 0 37.109vw 0;
+        }
+        @media(min-width:1360px){
+            padding: 4.167vw 0 20.313vw 0;
+        }
     }
 
     &__shard {
@@ -28,9 +32,11 @@
         @extend %mobile-h1;
         color: $colorGold;
         margin-bottom: 4vw;
-
-        @media(min-width:1920px) {
-            font-size: 144px;
+        @media(min-width:768px){
+            margin-bottom: 3.646vw;
+        }
+        @media(min-width:1360px) {
+            font-size: 7.5vw;
         }
     }
 
@@ -43,27 +49,28 @@
         margin-bottom: 13.333vw;
 
         @media(min-width:768px) {
-            font-size: 78px;
+            font-size: 10.156vw;
             line-height: 90%;
-            margin-bottom: 80px;
+            margin-bottom: 10.417vw;
 
         }
 
-        @media(min-width:1920px) {
-            font-size: 184px;
+        @media(min-width:1360px) {
+            font-size: 9.583vw;
             line-height: 100%;
+            margin-bottom: 5.885vw;
         }
     }
 
     & .button-normal {
-        @media(min-width:1920px) {
-            max-width: 553px;
+        @media(min-width:1360px) {
+            max-width: 28.802vw;
             order: -1;
         }
     }
 
     &__bottom {
-        @media(min-width:1920px) {
+        @media(min-width:1360px) {
             display: flex;
             justify-content: space-between;
         }
@@ -71,13 +78,13 @@
 
     &__bottom p {
         @extend %mobile-t1;
-        margin-bottom: 13.333vw;
         font-weight: 600;
-        @media(min-width:768px) {}
+        @media(min-width:768px) {
 
-        @media(min-width:1920px) {
-            max-width: 729px;
-            margin-right: 70px;
+        }
+        @media(min-width:1360px) {
+            max-width: 37.969vw;
+            margin-right: 3.646vw;
         }
 
 

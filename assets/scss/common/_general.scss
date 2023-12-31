@@ -10,10 +10,12 @@ body{
     margin: 0vw auto;
     padding: 0vw 4vw;
     @media(min-width:768px){
-        max-width: 96.094vw;
+        max-width: 92.188vw;
+        padding: 0px;
     }
-    @media(min-width:1920px){
-        max-width: 1720px;
+    @media(min-width:1360px){
+        max-width: 89.583vw;
+        padding: 0px 0.781vw;
     }
 }
 
@@ -25,7 +27,7 @@ body{
     @media(min-width:768px){
         margin-bottom: 4.557vw;
     }
-    @media(min-width:1920px){
-        margin-bottom: 35px;
+    @media(min-width:1360px){
+        margin-bottom: 1.823vw;
     }
 }

@@ -9,18 +9,20 @@
         @media(min-width:768px){
             justify-content: flex-start;
             padding: 2.083vw 0vw;
+            min-height: 10.417vw;
         }
-        @media(min-width:1920px){
+        @media(min-width:1360px){
            padding: 20px 0;
+           min-height: 5.052vw;
         }
     }
     &__logo{
         @media(min-width:768px){
             margin-left: 9.375vw;
         }
-        @media(min-width:1920px){
+        @media(min-width:1360px){
             margin-left: 0;
-            margin-right: 65px;
+            margin-right: 3.385vw;
             order: -1;
         }
         .logo__img{
@@ -29,7 +31,15 @@
             @media(min-width:768px){
                 max-width: 20.833vw;
             }
+            @media(min-width:1360px){
+                max-width: 8.333vw;
+            }
         }
+    }
+
+    &__phone{
+        display: flex;
+        align-items: center;
     }
     & .phone {
         border-radius: 0.533vw;
@@ -39,21 +49,20 @@
         padding: 1.6vw;
         position: relative;
         @media(min-width:768px){
-            margin-left: auto;
-            border-radius: 0.26vw;
+        margin-left: auto;
+        border-radius: 0.26vw;
         background: $colorBackground;
         height: 5.208vw;
         flex: 0 0 5.208vw;
         padding: 0.781vw;
         }
-        @media(min-width:1920px){
-           flex: 0 0 221px;
-           padding-left: 30px;
+        @media(min-width:1360px){
+           flex: 0 0 11.51vw;
            background-color: transparent;
         }
     }
     & .phone:hover span{
-        @media(min-width:1920px) {
+        @media(min-width:1360px) {
             background: linear-gradient(180deg, #2C4646 0%, #678E96 100%);
             background-clip: text;
             -webkit-background-clip: text;
@@ -71,9 +80,9 @@
     }
     & .phone span{
         display: none;
-        @media(min-width:1920px){
+        @media(min-width:1360px){
             display: inline-block;
-            font-size: 20px;
+            font-size: 1.042vw;
             font-weight: 300;
         }
     }
@@ -92,11 +101,11 @@
             width: 3.646vw;
             height: 3.646vw;
         }
-        @media(min-width:1920px){
-           left: 0;
+        @media(min-width:1360px){
+           left: -10px;
            transform: translate(0, -57%);
-           width: 24px;
-           height: 24px;
+           width: 1vw;
+           height: 1vw;
          }
     }
 }

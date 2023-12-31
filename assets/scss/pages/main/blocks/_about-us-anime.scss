@@ -11,6 +11,10 @@
             width: 92.188vw;
             height: 48.438vw;
         }
+        @media(min-width:1360px){
+            width: 44.01vw;
+            height: 40.677vw;
+         }
     }
 
     &__animation-2 {
@@ -21,6 +25,10 @@
         width: 100%;
         @media(min-width:778px){
            max-width: 27.865vw;
+        }
+        @media(min-width:1360px){
+            max-width: 20.313vw;
+            top: 0;
         }
     }
 
@@ -37,6 +45,11 @@
             max-width: 27.865vw;
             left: 17.578vw;
          }
+         @media(min-width:1360px){
+            max-width: 20.313vw;
+            left: 0.781vw;
+            bottom: 4.896vw;
+         }
     }
 
     &__animation-4 {
@@ -48,6 +61,11 @@
             max-width: 27.865vw;
             right: 17.448vw;
          }
+         @media(min-width:1360px){
+            max-width: 20.313vw;
+            right: 0.781vw;
+            bottom: 4.896vw;
+         }
     }
 
     &__animation-before {
@@ -57,7 +75,13 @@
         width: 100%;
         @media(min-width:778px){
             max-width: 43.75vw;
-         }
+        }
+        @media(min-width:1360px){
+            max-width: 20.833vw;
+            left: 0;
+            bottom: 0;
+        }
+
     }
 
     &__animation-after {
@@ -67,7 +91,12 @@
         width: 100%;
         @media(min-width:778px){
             max-width: 43.359vw;
-         }
+        }
+        @media(min-width:1360px){
+            max-width: 20.833vw;
+            right: 0;
+            bottom: 0;
+        }
     }
 
     &__animation-centr {
@@ -79,6 +108,10 @@
         @media(min-width:778px){
             bottom: -0.13vw;
             max-width: 27.865vw;
+         }
+         @media(min-width:1360px){
+            max-width: 20.313vw;
+            bottom: 5.052vw;
          }
     }
 }
