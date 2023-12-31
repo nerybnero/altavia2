@@ -10,11 +10,13 @@
     height: 13.067vw;
     @media(min-width:768px){
         padding: 2.865vw 5.208vw;
+        border-radius: 0.26vw;
         height: 7.682vw;
     }
-    @media(min-width:1920px){
-        padding: 26px 40px;
-        max-height: 69px;
+    @media(min-width:1360px){
+        padding: 1.354vw 2.083vw;
+        max-height: 3.594vw;
+        border-radius: 0.104vw;
     }
 
     // добавляем анимацию при наведении------
@@ -50,8 +52,8 @@
         @media(min-width:768px){
             font-size: 2.604vw;
         }
-        @media(min-width:1920px){
-            font-size: 24px;
+        @media(min-width:1360px){
+            font-size: 1.25vw;
         }
     }
 }

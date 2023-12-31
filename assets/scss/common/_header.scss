@@ -9,8 +9,10 @@
         @media(min-width:768px){
             justify-content: flex-start;
             padding: 2.083vw 0vw;
+            min-height: 10.417vw;
         }
         @media(min-width:1360px){
+           min-height: 5.052vw;
            padding: 1.042vw 0;
         }
     }
@@ -30,10 +32,17 @@
                 max-width: 20.833vw;
             }
             @media(min-width:1360px){
+                max-width: 8.333vw;
+            }
                max-width: 8.333vw;
             }
             
         }
+    }
+
+    &__phone{
+        display: flex;
+        align-items: center;
     }
     & .phone {
         border-radius: 0.533vw;
@@ -43,16 +52,15 @@
         padding: 1.6vw;
         position: relative;
         @media(min-width:768px){
-            margin-left: auto;
-            border-radius: 0.26vw;
-            background: $colorBackground;
-            height: 6.25vw;
-            flex: 0 0 6.25vw;
-            padding: 1.302vw;
+        margin-left: auto;
+        border-radius: 0.26vw;
+        background: $colorBackground;
+        height: 5.208vw;
+        flex: 0 0 5.208vw;
+        padding: 0.781vw;
         }
         @media(min-width:1360px){
            flex: 0 0 11.51vw;
-           padding-left: 1.563vw;
            background-color: transparent;
         }
     }
@@ -97,10 +105,10 @@
             height: 3.646vw;
         }
         @media(min-width:1360px){
-           left: 0;
+           left: -10px;
            transform: translate(0, -57%);
-           width: 1.25vw;
-           height: 1.25vw;
+           width: 1vw;
+           height: 1vw;
          }
     }
 }
