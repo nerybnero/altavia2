@@ -1,1 +1,0 @@
-<img class="logo__img" src="<?php bloginfo('template_url'); ?>/assets/img/icon/logo.svg" alt="Логотип">
