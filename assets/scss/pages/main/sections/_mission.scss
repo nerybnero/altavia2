@@ -3,18 +3,18 @@ margin-bottom: 26.667vw;
 @media(min-width:768px){
     margin-bottom: 22.526vw;
 }
-@media(min-width:1920px){
-    margin-bottom: 255px;
+@media(min-width:1360px){
+    margin-bottom: 13.281vw;
 }
     &__body {}
 
     &__title {}
 
     &__content {
-        @media(min-width:1920px){
+        @media(min-width:1360px){
             display: flex;
             justify-content: space-between;
-            gap: 50px;
+            gap: 2.604vw;
         }
     }
     &__inner{
@@ -24,14 +24,14 @@ margin-bottom: 26.667vw;
         }
     }
     & .button-normal{
-        @media(min-width:1920px){
-            max-width: 407px;
+        @media(min-width:1360px){
+            max-width: 21.198vw;
         } 
     }
     &__animation {
         margin-bottom: 8vw;
         
-        @media(min-width:1920px){
+        @media(min-width:1360px){
             flex: 0 0 50%;
             order: 2;
         }
@@ -50,6 +50,10 @@ margin-bottom: 26.667vw;
             gap: 2.604vw;
             margin-bottom: 5.208vw;
         }
+        @media(min-width:1360px){
+            margin-bottom: 3.125vw;
+        }
+
     }
 
     &__card-left {}
@@ -76,6 +80,10 @@ margin-bottom: 26.667vw;
           font-size: 2.865vw;
           margin-bottom: 2.604vw;  
           letter-spacing: -0.032vw;
+        }
+        @media(min-width:1360px){
+            font-size: 1.25vw;
+            margin-bottom: 1.042vw;
         }
     }
 

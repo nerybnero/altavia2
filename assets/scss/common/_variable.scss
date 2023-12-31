@@ -73,8 +73,8 @@ $netural-100: #FFF;
         font-size: 13.021vw;
         line-height: 90%;
     }
-    @media(min-width:1920px){
-        font-size: 100px;
+    @media(min-width:1360px){
+        font-size: 5.208vw;
         line-height: 100%;
     }
 }
@@ -85,14 +85,20 @@ $netural-100: #FFF;
     @media(min-width:768px){
         font-size: 5.99vw;
     }
-    @media(min-width:1920px){
-        font-size: 60px;
+    @media(min-width:1360px){
+        font-size: 3.125vw;
     }
 }
 %mobile-h3{
     font-size: 6.4vw;
     line-height: 120%;
     font-family: $fontStem;
+    @media(min-width:768px){
+        font-size: 3.906vw;
+    }
+    @media(min-width:1360px){
+        font-size: 1.771vw;
+    }
 }
 %mobile-h4{
     font-size: 4.267vw;
@@ -102,8 +108,8 @@ $netural-100: #FFF;
     @media(min-width:768px){
         font-size: 2.344vw;
     }
-    @media(min-width:1920px){
-        font-size: 20px;
+    @media(min-width:1360px){
+        font-size: 1.042vw;
     }
 }
 %mobile-t1{
@@ -112,8 +118,8 @@ $netural-100: #FFF;
     @media(min-width:768px){
         font-size: 2.865vw;
     }
-    @media(min-width:1920px){
-        font-size: 24px;
+    @media(min-width:1360px){
+        font-size: 1.25vw;
     }
 }
 %mobile-t2{
@@ -123,21 +129,29 @@ $netural-100: #FFF;
         font-size: 2.344vw;
         line-height: 150%;
     }
-    @media(min-width:1920px){
-        font-size: 20px;
+    @media(min-width:1360px){
+        font-size: 1.042vw;
         line-height: 150%;
     }
 }
-%mobile-card{
+%mobile-text{
     font-size: 4.267vw;
     line-height: 140%;
-    
+    @media(min-width:768px){
+        font-size: 2.344vw;
+    }
+    @media(min-width:1360px){
+        
+    }
 }
 %mobile-textcard{
     font-size: 4.267vw;
     line-height: 140%;
     @media(min-width:768px){
     font-size: 2.083vw;
+    }
+    @media(min-width:1360px){
+        font-size: 0.938vw;
     }
 }
 %mobile-practits{

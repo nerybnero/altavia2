@@ -11,11 +11,12 @@ body{
     padding: 0vw 4vw;
     @media(min-width:768px){
         max-width: 92.188vw;
-        padding: 0 3.906vw;
+        padding: 0px;
     }
     @media(min-width:1360px){
         max-width: 89.583vw;
-        padding: 0 4.688vw;
+        padding: 0px 0.781vw;
+
     }
 }
 
